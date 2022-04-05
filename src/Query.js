@@ -16,6 +16,9 @@ const githubQuery = {
             id
             url
             viewerSubscription
+            licenseInfo {
+              spdxId
+            }
           }
         }
       }
@@ -24,4 +27,5 @@ const githubQuery = {
 };
 
 export default githubQuery;
+
 
